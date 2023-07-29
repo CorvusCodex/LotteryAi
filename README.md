@@ -2,7 +2,7 @@
   <img src="https://github.com/CorvusCodex/LotteryAi/blob/main/LotteryAi.png?raw=true">
 </p>
 
-##LotteryAi
+## LotteryAi
 
 LotteryAi is a lottery prediction AI that uses machine learning to predict the winning numbers of a lottery.
 
