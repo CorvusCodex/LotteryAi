@@ -1,6 +1,3 @@
-# LotteryA
-
-
 <p align="center">
   <img src="https://github.com/CorvusCodex/LotteryAi/blob/main/LotteryAi.png?raw=true">
 </p>
