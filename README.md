@@ -24,6 +24,9 @@ To use LotteryAi, you will need to have a data file containing past lottery resu
 
 Once you have the data file, you can run the `LotteryAi.py` script to train the model and generate predictions. The script will print the generated ASCII art and the first three rows of predicted numbers to the console.
 
+If dataset is needed you can buy one generated from here
+https://www.buymeacoffee.com/CorvusCodex/e/154462
+
 >Support my work:<br>
 >BTC: bc1q7wth254atug2p4v9j3krk9kauc0ehys2u8tgg3<br>
 >ETH & BNB: 0x68B6D33Ad1A3e0aFaDA60d6ADf8594601BE492F0<br>
