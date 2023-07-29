@@ -4,7 +4,6 @@ from tensorflow import keras
 from keras import layers
 from art import text2art
 
-# Generate ASCII art with the text "LAi"
 ascii_art = text2art("LotteryAi")
 
 print("============================================================")
@@ -17,7 +16,6 @@ print("ETH & BNB: 0x68B6D33Ad1A3e0aFaDA60d6ADf8594601BE492F0")
 print("Buy me a coffee: https://www.buymeacoffee.com/CorvusCodex")
 print("============================================================")
 
-# Print the generated ASCII art
 print(ascii_art)
 print("Lottery prediction artificial intelligence")
 
