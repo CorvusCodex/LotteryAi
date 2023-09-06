@@ -8,6 +8,7 @@ from art import text2art
 ascii_art = text2art("LotteryAi")
 
 print("============================================================")
+print("LotteryAi")
 print("Created by: Corvus Codex")
 print("Github: https://github.com/CorvusCodex/")
 print("Licence : MIT License")
@@ -62,5 +63,5 @@ print("ETH & BNB: 0x68B6D33Ad1A3e0aFaDA60d6ADf8594601BE492F0")
 print("Buy me a coffee: https://www.buymeacoffee.com/CorvusCodex")
 print("============================================================")
 
-Prevent the window from closing immediately
+# Prevent the window from closing immediately
 input('Press ENTER to exit')
