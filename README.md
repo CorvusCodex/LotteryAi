@@ -23,7 +23,7 @@ You can install these libraries using pip by running the following command:
 
 ## Usage
 
-To use LotteryAi, you will need to have a data file containing past lottery results. This file should be in a comma-separated format, with each row representing a single draw and the numbers in ascending order, rows are in new line without comma.
+To use LotteryAi, you will need to have a data file containing past lottery results. This file should be in a comma-separated format, with each row representing a single draw and the numbers in ascending order, rows are in new line without comma. Dont use white spaces. Last row number must have nothing after last number.
 
 Once you have the data file, you can run the `LotteryAi.py` script to train the model and generate predictions. The script will print the generated ASCII art and the first ten rows of predicted numbers to the console.
 
