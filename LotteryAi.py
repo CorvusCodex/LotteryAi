@@ -55,8 +55,12 @@ for numbers in predicted_numbers[:10]:
     print(', '.join(map(str, numbers)))
 
 print("============================================================")
+print("If you won buy me a coffee: https://www.buymeacoffee.com/CorvusCodex")
 print("Support my work:")
 print("BTC: bc1q7wth254atug2p4v9j3krk9kauc0ehys2u8tgg3")
 print("ETH & BNB: 0x68B6D33Ad1A3e0aFaDA60d6ADf8594601BE492F0")
 print("Buy me a coffee: https://www.buymeacoffee.com/CorvusCodex")
 print("============================================================")
+
+Prevent the window from closing immediately
+input('Press ENTER to exit')
