@@ -10,7 +10,7 @@ LotteryAi is a lottery prediction artificial intelligence that uses machine lear
 https://www.buymeacoffee.com/CorvusCodex/e/155047?from_page=extras
 
 ## For people who need Financial Forecast Ai (Stocks,currencies...) buy application for windows from here:
-https://www.buymeacoffee.com/CorvusCodex/e/169645
+https://www.buymeacoffee.com/corvuscodex/e/170309
 
 ## Installation
 
