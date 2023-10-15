@@ -38,6 +38,12 @@ https://www.buymeacoffee.com/CorvusCodex/e/154462
 >ETH & BNB: 0x68B6D33Ad1A3e0aFaDA60d6ADf8594601BE492F0<br>
 >Buy me a coffee: https://www.buymeacoffee.com/CorvusCodex
 
+## Support my work for month or year so i can continue to work on my projects:
+https://www.buymeacoffee.com/corvuscodex/membership
+
+## Buy me some equipment:
+https://www.buymeacoffee.com/corvuscodex/wishlist
+
 ## Disclaimer
 
 The code within this repository comes with no guarantee, the use of this code is your responsibility. I take NO responsibility and/or liability for how you choose to use any of the source code available here. By using any of the files available in this repository, you understand that you are AGREEING TO USE AT YOUR OWN RISK. Once again, ALL files available here are for EDUCATION and/or RESEARCH purposes ONLY.
