@@ -9,8 +9,11 @@ LotteryAi is a lottery prediction artificial intelligence that uses machine lear
 ## For people without technical experience you can buy the compiled standalone application for windows from here:
 https://www.buymeacoffee.com/CorvusCodex/e/155047?from_page=extras
 
-## For people who need Financial Forecast Ai (Stocks,currencies...) buy application for windows from here:
-https://www.buymeacoffee.com/corvuscodex/e/170309
+## Support my work for month or year so i can continue to work on my projects:
+https://www.buymeacoffee.com/corvuscodex/membership
+
+## Buy me some equipment (To develop more powerfull versions and to develop standalone versions for MacOS):
+https://www.buymeacoffee.com/corvuscodex/wishlist
 
 ## Installation
 
@@ -30,19 +33,16 @@ To use LotteryAi, you will need to have a data file containing past lottery resu
 
 Once you have the data file, you can run the `LotteryAi.py` script to train the model and generate predictions. The script will print the generated ASCII art and the first ten rows of predicted numbers to the console.
 
-If dataset is needed you can buy one generated from here
+If generated dataset is needed you can buy one generated from here
 https://www.buymeacoffee.com/CorvusCodex/e/154462
+
+## For people who need Financial Forecast Ai (Stocks,currencies...) buy application for windows from here:
+https://www.buymeacoffee.com/corvuscodex/e/170309
 
 >Support my work:<br>
 >BTC: bc1q7wth254atug2p4v9j3krk9kauc0ehys2u8tgg3<br>
 >ETH & BNB: 0x68B6D33Ad1A3e0aFaDA60d6ADf8594601BE492F0<br>
 >Buy me a coffee: https://www.buymeacoffee.com/CorvusCodex
-
-## Support my work for month or year so i can continue to work on my projects:
-https://www.buymeacoffee.com/corvuscodex/membership
-
-## Buy me some equipment:
-https://www.buymeacoffee.com/corvuscodex/wishlist
 
 ## Disclaimer
 
