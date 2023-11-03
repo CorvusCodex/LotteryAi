@@ -9,11 +9,12 @@ LotteryAi is a lottery prediction artificial intelligence that uses machine lear
 ## For people without technical experience you can buy the compiled standalone application for windows from here:
 https://www.buymeacoffee.com/CorvusCodex/e/155047?from_page=extras
 
-## Support my work for month or year so i can continue to work on my projects:
-https://www.buymeacoffee.com/corvuscodex/membership
 
 ## Buy me some equipment (To develop more powerfull versions and to develop standalone versions for MacOS):
 https://www.buymeacoffee.com/corvuscodex/wishlist
+
+### Support my work for month or year so i can continue to work on my projects:
+https://www.buymeacoffee.com/corvuscodex/membership
 
 ## Installation
 
