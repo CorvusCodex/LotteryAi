@@ -34,9 +34,6 @@ Once you have the data file, you can run the `LotteryAi.py` script to train the 
 If generated dataset is needed you can buy one generated from here
 https://www.buymeacoffee.com/CorvusCodex/e/154462
 
-## For people who need Financial Forecast Ai (Stocks,currencies...) buy application for windows from here:
-https://www.buymeacoffee.com/corvuscodex/e/170309
-
 >Support my work:<br>
 >BTC: bc1q7wth254atug2p4v9j3krk9kauc0ehys2u8tgg3<br>
 >ETH & BNB: 0x68B6D33Ad1A3e0aFaDA60d6ADf8594601BE492F0<br>
