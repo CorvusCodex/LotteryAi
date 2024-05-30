@@ -10,9 +10,6 @@ LotteryAi is a lottery prediction artificial intelligence that uses machine lear
 https://www.buymeacoffee.com/CorvusCodex/e/155047?from_page=extras
 
 
-### Support my work for month or year so i can continue to work on my projects:
-https://www.buymeacoffee.com/corvuscodex/membership
-
 ## Installation
 
 To install LotteryAi, you will need to have Python 3.x and the following libraries installed:
@@ -41,6 +38,10 @@ https://www.buymeacoffee.com/CorvusCodex/e/154462
 
 ## Buy me some equipment (To develop more powerfull versions and to develop standalone versions for MacOS):
 https://www.buymeacoffee.com/corvuscodex/wishlist
+
+
+### Support my work for month or year so i can continue to work on my projects:
+https://www.buymeacoffee.com/corvuscodex/membership
 
 ## Disclaimer
 
