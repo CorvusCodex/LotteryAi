@@ -44,11 +44,7 @@ https://www.buymeacoffee.com/CorvusCodex/e/154462
 >Buy me a coffee: https://www.buymeacoffee.com/CorvusCodex
 
 ## Buy me some equipment (To develop more powerfull versions and to develop standalone versions for MacOS):
-https://www.buymeacoffee.com/corvuscodex/wishlist
-
-
-### Support my work for month or year so i can continue to work on my projects:
-https://www.buymeacoffee.com/corvuscodex/membership
+https://www.buymeacoffee.com/corvuscodex/
 
 ## Disclaimer
 
