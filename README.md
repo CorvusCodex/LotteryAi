@@ -10,10 +10,10 @@ LotteryAi is a lottery prediction artificial intelligence that uses machine lear
 https://www.buymeacoffee.com/CorvusCodex/e/155047?from_page=extras
 
 ---
-PowerBall AI
+PowerBall AI with GUI
 https://buymeacoffee.com/corvuscodex/e/320434
 
-MegaMillionsAI
+PowerBall AI with GUI
 https://buymeacoffee.com/corvuscodex/e/325420
 
 
