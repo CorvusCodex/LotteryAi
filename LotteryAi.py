@@ -22,6 +22,7 @@ def print_intro():
     print("============================================================")
     print(ascii_art)
     print("Lottery prediction artificial intelligence")
+    print("============================================================")
 
 # Function to load data from a file and preprocess it
 def load_data():
