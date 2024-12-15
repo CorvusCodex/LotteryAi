@@ -27,7 +27,7 @@ To install LotteryAi, you will need to have Python 3.x and the following librari
 
 You can install these libraries using pip by running the following command:
 
-'''pip install numpy tensorflow keras art'''
+''pip install numpy tensorflow keras art''
 
 ## Usage
 
