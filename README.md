@@ -13,7 +13,7 @@ https://www.buymeacoffee.com/CorvusCodex/e/155047?from_page=extras
 PowerBall AI with GUI
 https://buymeacoffee.com/corvuscodex/e/320434
 
-PowerBall AI with GUI
+MegaMillions AI with GUI
 https://buymeacoffee.com/corvuscodex/e/325420
 
 
