@@ -40,7 +40,7 @@ https://www.buymeacoffee.com/CorvusCodex/e/154462
 
 >Support my work:<br>
 >BTC: bc1q7wth254atug2p4v9j3krk9kauc0ehys2u8tgg3<br>
->ETH & BNB: 0x68B6D33Ad1A3e0aFaDA60d6ADf8594601BE492F0<br>
+>POL/ETH/BNB: 0x68B6D33Ad1A3e0aFaDA60d6ADf8594601BE492F0<br>
 >Buy me a coffee: https://www.buymeacoffee.com/CorvusCodex
 
 ## Buy me some equipment (To develop more powerfull versions and to develop standalone versions for MacOS):
