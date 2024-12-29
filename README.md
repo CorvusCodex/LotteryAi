@@ -54,7 +54,7 @@ The code within this repository comes with no guarantee, the use of this code is
 Please keep in mind that while LotteryAi.py uses advanced machine learning techniques to predict lottery numbers, there is no guarantee that its predictions will be accurate. Lottery results are inherently random and unpredictable, so it is important to use LotteryAi responsibly and not rely solely on its predictions.
 
 
-MIT License
+## MIT License
 
 Copyright (c) 2025 CorvusCodex
 
