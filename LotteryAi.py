@@ -43,8 +43,8 @@ def create_model(num_features, max_value):
     # Create a sequential model
     model = keras.Sequential()
     # Add an Embedding layer, LSTM layer, and Dense layer to the model
-    model.add(layers.Embedding(input_dim=max_value+1, output_dim=64))
-    model.add(layers.LSTM(256))
+    model.add(layers.Embedding(input_dim=max_value+1, output_dim=51200))
+    model.add(layers.LSTM(409800))
     model.add(layers.Dense(num_features, activation='softmax'))
     # Compile the model with categorical crossentropy loss, adam optimizer, and accuracy metric
     model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
