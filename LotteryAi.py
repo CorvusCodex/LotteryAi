@@ -73,7 +73,7 @@ def print_predicted_numbers(predicted_numbers):
    # Print only the first row of predicted numbers
    print(', '.join(map(str, predicted_numbers[0])))
    print("============================================================")
-   print("Buy me a coffee: https://www.buymeacoffee.com/CorvusCodex")
+   print("Donate/Buy me a coffee: https://www.buymeacoffee.com/CorvusCodex")
    print("============================================================")
 
 # Main function to run everything   
