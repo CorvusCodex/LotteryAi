@@ -12,6 +12,7 @@ https://www.buymeacoffee.com/CorvusCodex/e/155047?from_page=extras
 
 -----
 Other versions 
+
 PowerBall AI with GUI
 https://buymeacoffee.com/corvuscodex/e/320434
 
