@@ -12,6 +12,7 @@ def print_intro():
     # Print the introduction and ASCII art
     print("============================================================")
     print("LotteryAi")
+    print("Lottery prediction artificial intelligence")
     print("Created by: Corvus Codex")
     print("Github: https://github.com/CorvusCodex/")
     print("Licence : MIT License")
