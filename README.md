@@ -19,7 +19,7 @@ https://buymeacoffee.com/corvuscodex/e/320434
 MegaMillions AI with GUI
 https://buymeacoffee.com/corvuscodex/e/325420
 
-
+-----
 ## Installation
 
 To install LotteryAi, you will need to have Python 3.x and the following libraries installed:
