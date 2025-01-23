@@ -52,8 +52,12 @@ https://buymeacoffee.com/corvuscodex/commissions
 >SOL: FsX3CsTFkRjzne2KiD8gjw3PEW2bYqezKfydAP55BVj7<br>
 >Buy me a coffee: https://www.buymeacoffee.com/CorvusCodex
 
+-----
+
 ## Buy me some equipment (To develop more powerfull versions and to develop standalone versions for MacOS):
 https://www.buymeacoffee.com/corvuscodex/
+
+-----
 
 ## Disclaimer
 
