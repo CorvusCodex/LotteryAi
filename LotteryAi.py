@@ -71,7 +71,9 @@ def predict_numbers(model, val_data, num_features):
 # Function to print the predicted numbers
 def print_predicted_numbers(predicted_numbers):
    # Print a separator line and "Predicted Numbers:"
-   print("============================================================")
+   print("-------------------------------------------------------------")
+   print("Training finished")
+   print("-------------------------------------------------------------")
    print("Predicted Numbers:")
    # Print only the first row of predicted numbers
    print(', '.join(map(str, predicted_numbers[0])))
