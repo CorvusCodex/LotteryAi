@@ -54,7 +54,7 @@ https://buymeacoffee.com/corvuscodex/commissions
 
 -----
 
-## Buy me some equipment (To develop more powerfull versions and to develop standalone versions for MacOS):
+## Buy me some equipment (To develop/train more powerfull versions and to develop standalone versions for MacOS):
 https://www.buymeacoffee.com/corvuscodex/
 
 -----
