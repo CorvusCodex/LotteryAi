@@ -10,6 +10,9 @@ LotteryAi is a advanced lottery prediction artificial intelligence that uses sta
 
 https://www.buymeacoffee.com/CorvusCodex/e/155047?from_page=extras
 
+For MacOS from here:
+https://buymeacoffee.com/corvuscodex/e/367859
+
 -----
 Other versions:
 
