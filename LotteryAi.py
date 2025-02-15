@@ -13,7 +13,7 @@ def print_intro():
     print("============================================================")
     print("LotteryAi")
     print("Lottery prediction artificial intelligence")
-    print("Created by: Corvus Codex")
+    print("Created by: CorvusCodex")
     print("Github: https://github.com/CorvusCodex/")
     print("Licence : MIT License")
     print("Support my work:")
