@@ -5,7 +5,7 @@ from tensorflow import keras
 from keras import layers
 from art import text2art
 
-# Function to print the introduction of the program
+# Introduction function
 def print_intro():
     # Generate ASCII art with the text "LotteryAi"
     ascii_art = text2art("LotteryAi")
