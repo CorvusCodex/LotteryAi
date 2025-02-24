@@ -67,7 +67,6 @@ def predict_numbers(model, val_data, num_features):
 
 # Function to print the predicted numbers
 def print_predicted_numbers(predicted_numbers):
-   # Print a separator line and "Predicted Numbers:"
    print("-------------------------------------------------------------")
    print("Training finished")
    print("-------------------------------------------------------------")
