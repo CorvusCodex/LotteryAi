@@ -4,7 +4,6 @@ from tensorflow import keras
 from keras import layers
 from art import text2art
 
-# Introduction function
 def print_intro():
     ascii_art = text2art("LotteryAi")
     print("============================================================")
