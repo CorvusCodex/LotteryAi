@@ -68,10 +68,11 @@ def predict_numbers(model, val_data, num_features):
 # Function to print the predicted numbers
 def print_predicted_numbers(predicted_numbers):
    print("-------------------------------------------------------------")
-   print("Training finished")
+   print("Training finished.")
    print("-------------------------------------------------------------")
-   print("Predicted Numbers:")
-   # Print only the first row of predicted numbers
+   print("Predicted Numbers: ")
+    
+   # Edit 0 to chose how many rows you want
    print(', '.join(map(str, predicted_numbers[0])))
    print("============================================================")
    print("Donate/Support me on Buy me a coffee: https://www.buymeacoffee.com/CorvusCodex")
@@ -80,7 +81,6 @@ def print_predicted_numbers(predicted_numbers):
    print("SOL: FsX3CsTFkRjzne2KiD8gjw3PEW2bYqezKfydAP55BVj7")
    print("============================================================")
 
-# Main function to run everything   
 def main():
    # Print introduction of program 
    print_intro()
