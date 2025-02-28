@@ -65,7 +65,6 @@ def predict_numbers(model, val_data, num_features):
     predicted_numbers = np.take_along_axis(val_data, indices, axis=1)
     return predicted_numbers
 
-# Function to print the predicted numbers
 def print_predicted_numbers(predicted_numbers):
    print("-------------------------------------------------------------")
    print("Training finished.")
