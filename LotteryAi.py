@@ -1,3 +1,11 @@
+import socket
+
+# Disable all socket connections
+def guard(*args, **kwargs):
+    raise Exception("Internet access is disabled")
+
+socket.socket = guard
+
 import numpy as np
 import tensorflow as tf
 from tensorflow import keras
