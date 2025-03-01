@@ -81,7 +81,6 @@ def print_predicted_numbers(predicted_numbers):
    print("============================================================")
 
 def main():
-   # Print introduction of program 
    print_intro()
    
    # Load and preprocess data 
