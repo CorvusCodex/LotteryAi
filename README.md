@@ -28,7 +28,7 @@ https://buymeacoffee.com/corvuscodex/e/325420
 -----
 ## Installation
 
-To install LotteryAi, you will need to have Python 3.x and the following libraries installed:
+To install LotteryAi, you will need to have or download Python 3.x and the following libraries installed:
 - numpy
 - tensorflow
 - keras
