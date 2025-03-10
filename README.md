@@ -17,7 +17,7 @@ https://www.buymeacoffee.com/CorvusCodex/e/155047?from_page=extras
 https://buymeacoffee.com/corvuscodex/e/367859
 
 -----
-Other lottery versions (Windows):
+Other lottery versions (Windows 10,11):
 
 PowerBall AI with GUI
 https://buymeacoffee.com/corvuscodex/e/320434
