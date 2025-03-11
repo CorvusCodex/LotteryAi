@@ -1,6 +1,5 @@
 import socket
 
-# Disable all socket connections
 def guard(*args, **kwargs):
     raise Exception("Internet access is disabled")
 
