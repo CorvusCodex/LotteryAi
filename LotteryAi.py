@@ -1,113 +1,154 @@
+#!/usr/bin/env python3
+
 import socket
-
-def guard(*args, **kwargs):
-    raise Exception("Internet access is disabled")
-
-socket.socket = guard
-
+import sys
 import numpy as np
 import tensorflow as tf
 from tensorflow import keras
 from keras import layers
 from art import text2art
 
+# Disable internet access
+def guard(*args, **kwargs):
+    raise Exception("Internet access is disabled")
+socket.socket = guard
+
 def print_intro():
-    ascii_art = text2art("LotteryAi")
-    print("============================================================")
-    print("LotteryAi")
-    print("Lottery prediction artificial intelligence")
-    print("Created by: CorvusCodex")
-    print("Github: https://github.com/CorvusCodex/")
-    print("Licence: MIT License")
-    print("============================================================")
-    print("Support my work:")
-    print("BTC: bc1q7wth254atug2p4v9j3krk9kauc0ehys2u8tgg3")
-    print("ETH/BNB/POL: 0x68B6D33Ad1A3e0aFaDA60d6ADf8594601BE492F0")
-    print("SOL: FsX3CsTFkRjzne2KiD8gjw3PEW2bYqezKfydAP55BVj7")
-    print("Buy me a coffee: https://www.buymeacoffee.com/CorvusCodex ")
-    print("============================================================")
-    print(ascii_art)
-    print("Lottery prediction artificial intelligence")
-    print("============================================================")
-    print("Starting...")
-    print("============================================================")
+    try:
+        ascii_art = text2art("LotteryAi")
+        print("=" * 60)
+        print("LotteryAi")
+        print("Lottery prediction artificial intelligence")
+        print("Created by: CorvusCodex")
+        print("Github: https://github.com/CorvusCodex/")
+        print("Licence: MIT License")
+        print("=" * 60)
+        print("Support my work:")
+        print("BTC: bc1q7wth254atug2p4v9j3krk9kauc0ehys2u8tgg3")
+        print("ETH/BNB/POL: 0x68B6D33Ad1A3e0aFaDA60d6ADf8594601BE492F0")
+        print("SOL: FsX3CsTFkRjzne2KiD8gjw3PEW2bYqezKfydAP55BVj7")
+        print("Buy me a coffee: https://www.buymeacoffee.com/CorvusCodex")
+        print("=" * 60)
+        print(ascii_art)
+        print("Lottery prediction artificial intelligence")
+        print("=" * 60)
+        print("Starting...")
+        print("=" * 60)
+    except Exception as e:
+        print(f"Error displaying introduction: {str(e)}")
+        sys.exit(1)
 
-# Function to load data from a file and preprocess it
 def load_data():
-    # Load data from file, ignoring white spaces and accepting unlimited length numbers
-    data = np.genfromtxt('data.txt', delimiter=',', dtype=int)
-    # Replace all -1 values with 0
-    data[data == -1] = 0
-    # Split data into training and validation sets
-    train_data = data[:int(0.8*len(data))]
-    val_data = data[int(0.8*len(data)):]
-    # Get the maximum value in the data
-    max_value = np.max(data)
-    return train_data, val_data, max_value
+    try:
+        # Load data from file
+        if not tf.io.gfile.exists('data.txt'):
+            raise FileNotFoundError("data.txt not found")
+        
+        data = np.genfromtxt('data.txt', delimiter=',', dtype=int)
+        if data.size == 0:
+            raise ValueError("data.txt is empty")
+            
+        # Replace -1 values with 0
+        data[data == -1] = 0
+        
+        # Split data into training and validation sets
+        train_size = int(0.8 * len(data))
+        if train_size == 0:
+            raise ValueError("Dataset too small to split")
+            
+        train_data = data[:train_size]
+        val_data = data[train_size:]
+        max_value = np.max(data)
+        
+        return train_data, val_data, max_value
+    except Exception as e:
+        print(f"Error loading data: {str(e)}")
+        sys.exit(1)
 
-# Function to create the model
 def create_model(num_features, max_value):
-    # Create a sequential model
-    model = keras.Sequential()
-    # Add an Embedding layer, LSTM layer, and Dense layer to the model
-    model.add(layers.Embedding(input_dim=max_value+1, output_dim=51200))
-    model.add(layers.LSTM(409800))
-    model.add(layers.Dense(num_features, activation='softmax'))
-    # Compile the model with categorical crossentropy loss, adam optimizer, and accuracy metric
-    model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
-    return model
+    try:
+        model = keras.Sequential([
+            layers.Embedding(input_dim=max_value+1, output_dim=51200),
+            layers.LSTM(409800),
+            layers.Dense(num_features, activation='softmax')
+        ])
+        model.compile(
+            loss='categorical_crossentropy',
+            optimizer='adam',
+            metrics=['accuracy']
+        )
+        return model
+    except Exception as e:
+        print(f"Error creating model: {str(e)}")
+        sys.exit(1)
 
-# Function to train the model
 def train_model(model, train_data, val_data):
-    # Fit the model on the training data and validate on the validation data for 100 epochs
-    history = model.fit(train_data, train_data, validation_data=(val_data, val_data), epochs=100)
+    try:
+        history = model.fit(
+            train_data, 
+            train_data, 
+            validation_data=(val_data, val_data), 
+            epochs=100,
+            verbose=1
+        )
+        return history
+    except Exception as e:
+        print(f"Error training model: {str(e)}")
+        sys.exit(1)
 
-# Function to predict numbers using the trained model
 def predict_numbers(model, val_data, num_features):
-    # Predict on the validation data using the model
-    predictions = model.predict(val_data)
-    # Get the indices of the top 'num_features' predictions for each sample in validation data
-    indices = np.argsort(predictions, axis=1)[:, -num_features:]
-    # Get the predicted numbers using these indices from validation data
-    predicted_numbers = np.take_along_axis(val_data, indices, axis=1)
-    return predicted_numbers
+    try:
+        predictions = model.predict(val_data)
+        indices = np.argsort(predictions, axis=1)[:, -num_features:]
+        predicted_numbers = np.take_along_axis(val_data, indices, axis=1)
+        return predicted_numbers
+    except Exception as e:
+        print(f"Error predicting numbers: {str(e)}")
+        sys.exit(1)
 
 def print_predicted_numbers(predicted_numbers):
-   print("-------------------------------------------------------------")
-   print("Training finished.")
-   print("-------------------------------------------------------------")
-   print("Predicted Numbers: ")
-    
-   # Edit 0 to chose how many rows you want
-   print(', '.join(map(str, predicted_numbers[0])))
-   print("============================================================")
-   print("Donate/Support me on Buy me a coffee: https://www.buymeacoffee.com/CorvusCodex")
-   print("BTC: bc1q7wth254atug2p4v9j3krk9kauc0ehys2u8tgg3")
-   print("ETH/BNB/POL: 0x68B6D33Ad1A3e0aFaDA60d6ADf8594601BE492F0")
-   print("SOL: FsX3CsTFkRjzne2KiD8gjw3PEW2bYqezKfydAP55BVj7")
-   print("============================================================")
+    try:
+        print("-" * 60)
+        print("Training finished.")
+        print("-" * 60)
+        print("Predicted Numbers:")
+        if predicted_numbers.size > 0:
+            print(', '.join(map(str, predicted_numbers[0])))
+        else:
+            print("No predictions available")
+        print("=" * 60)
+        print("Donate/Support me on Buy me a coffee: https://www.buymeacoffee.com/CorvusCodex")
+        print("BTC: bc1q7wth254atug2p4v9j3krk9kauc0ehys2u8tgg3")
+        print("ETH/BNB/POL: 0x68B6D33Ad1A3e0aFaDA60d6ADf8594601BE492F0")
+        print("SOL: FsX3CsTFkRjzne2KiD8gjw3PEW2bYqezKfydAP55BVj7")
+        print("=" * 60)
+    except Exception as e:
+        print(f"Error printing predictions: {str(e)}")
+        sys.exit(1)
 
 def main():
-   print_intro()
-   
-   # Load and preprocess data 
-   train_data, val_data, max_value = load_data()
-   
-   # Get number of features from training data 
-   num_features = train_data.shape[1]
-   
-   # Create and compile model 
-   model = create_model(num_features, max_value)
-   
-   # Train model 
-   train_model(model, train_data, val_data)
-   
-   # Predict numbers using trained model 
-   predicted_numbers = predict_numbers(model, val_data, num_features)
-   
-   # Print predicted numbers 
-   print_predicted_numbers(predicted_numbers)
+    try:
+        print_intro()
+        
+        # Load and preprocess data
+        train_data, val_data, max_value = load_data()
+        
+        # Get number of features from training data
+        if train_data.ndim < 2:
+            raise ValueError("Training data has invalid dimensions")
+        num_features = train_data.shape[1]
+        
+        # Create and train model
+        model = create_model(num_features, max_value)
+        train_model(model, train_data, val_data)
+        
+        # Predict and print numbers
+        predicted_numbers = predict_numbers(model, val_data, num_features)
+        print_predicted_numbers(predicted_numbers)
+        
+    except Exception as e:
+        print(f"Fatal error in main execution: {str(e)}")
+        sys.exit(1)
 
-# Run main function if this script is run directly (not imported as a module)
 if __name__ == "__main__":
-   main()
+    main()
