@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 import socket
 import sys
 import numpy as np
@@ -8,7 +6,6 @@ from tensorflow import keras
 from keras import layers
 from art import text2art
 
-# Disable internet access
 def guard(*args, **kwargs):
     raise Exception("Internet access is disabled")
 socket.socket = guard
