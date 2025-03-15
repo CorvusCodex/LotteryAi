@@ -129,7 +129,6 @@ def main():
         # Load and preprocess data
         train_data, val_data, max_value = load_data()
         
-        # Get number of features from training data
         if train_data.ndim < 2:
             raise ValueError("Training data has invalid dimensions")
         num_features = train_data.shape[1]
