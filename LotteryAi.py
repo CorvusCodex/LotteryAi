@@ -161,6 +161,5 @@ def main():
         print(f"Fatal error in main execution: {str(e)}")
         sys.exit(1)
 
-# Entry point of the program
 if __name__ == "__main__":
     main()
