@@ -1,4 +1,3 @@
-# Import necessary libraries for networking, system operations, numerical computation
 import socket
 import sys
 import numpy as np
