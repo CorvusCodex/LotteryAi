@@ -102,7 +102,6 @@ def train_model(model, train_data, val_data):
 # Generate lottery number predictions using trained model
 def predict_numbers(model, val_data, num_features):
     try:
-        # Make predictions and select top numbers
         predictions = model.predict(val_data)
         indices = np.argsort(predictions, axis=1)[:, -num_features:]
         predicted_numbers = np.take_along_axis(val_data, indices, axis=1)
