@@ -150,7 +150,6 @@ def main():
         model = create_model(num_features, max_value)
         train_model(model, train_data, val_data)
         
-        # Generate and display predictions
         predicted_numbers = predict_numbers(model, val_data, num_features)
         print_predicted_numbers(predicted_numbers)
         
