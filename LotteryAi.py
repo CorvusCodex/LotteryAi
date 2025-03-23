@@ -35,7 +35,6 @@ def print_intro():
         print(f"Error displaying introduction: {str(e)}")
         sys.exit(1)
 
-# Load and split lottery data from file into training and validation sets
 def load_data():
     try:
         # Check if data file exists and load it
