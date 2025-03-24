@@ -62,7 +62,6 @@ def load_data():
         print(f"Error loading data: {str(e)}")
         sys.exit(1)
 
-# Create LSTM neural network model for lottery number prediction
 def create_model(num_features, max_value):
     try:
         # Define sequential model with embedding, LSTM, and dense layers
