@@ -45,7 +45,6 @@ def load_data():
         if data.size == 0:
             raise ValueError("data.txt is empty")
             
-        # Replace -1 values with 0
         data[data == -1] = 0
         
         # Split into 80% training and 20% validation sets
