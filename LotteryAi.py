@@ -63,7 +63,6 @@ def load_data():
 
 def create_model(num_features, max_value):
     try:
-        # Define sequential model with embedding, LSTM, and dense layers
         model = keras.Sequential([
             layers.Embedding(input_dim=max_value+1, output_dim=51200),
             layers.LSTM(409800),
