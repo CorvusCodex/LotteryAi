@@ -47,7 +47,6 @@ def load_data():
             
         data[data == -1] = 0
         
-        # Split into 80% training and 20% validation sets
         train_size = int(0.8 * len(data))
         if train_size == 0:
             raise ValueError("Dataset too small to split")
