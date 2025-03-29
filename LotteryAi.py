@@ -104,7 +104,6 @@ def predict_numbers(model, val_data, num_features):
         print(f"Error predicting numbers: {str(e)}")
         sys.exit(1)
 
-# Display predicted lottery numbers and support information
 def print_predicted_numbers(predicted_numbers):
     try:
         print("-" * 60)
