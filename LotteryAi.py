@@ -78,7 +78,6 @@ def create_model(num_features, max_value):
         print(f"Error creating model: {str(e)}")
         sys.exit(1)
 
-# Train the model using the loaded data
 def train_model(model, train_data, val_data):
     try:
         # Fit model to training data with validation
