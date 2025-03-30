@@ -93,7 +93,6 @@ def train_model(model, train_data, val_data):
         print(f"Error training model: {str(e)}")
         sys.exit(1)
 
-# Generate lottery number predictions using trained model
 def predict_numbers(model, val_data, num_features):
     try:
         predictions = model.predict(val_data)
