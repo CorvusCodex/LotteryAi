@@ -80,7 +80,6 @@ def create_model(num_features, max_value):
 
 def train_model(model, train_data, val_data):
     try:
-        # Fit model to training data with validation
         history = model.fit(
             train_data, 
             train_data, 
