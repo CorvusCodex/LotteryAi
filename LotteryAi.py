@@ -37,7 +37,6 @@ def print_intro():
 
 def load_data():
     try:
-        # Check if data file exists and load it
         if not tf.io.gfile.exists('data.txt'):
             raise FileNotFoundError("data.txt not found")
         
