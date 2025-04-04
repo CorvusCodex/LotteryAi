@@ -66,7 +66,6 @@ def create_model(num_features, max_value):
             layers.LSTM(409800),
             layers.Dense(num_features, activation='softmax')
         ])
-        # Compile model with loss function and optimizer
         model.compile(
             loss='categorical_crossentropy',
             optimizer='adam',
