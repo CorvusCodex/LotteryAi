@@ -121,7 +121,6 @@ def print_predicted_numbers(predicted_numbers):
         print(f"Error printing predictions: {str(e)}")
         sys.exit(1)
 
-# Main execution function coordinating all operations
 def main():
     try:
         # Execute program steps
