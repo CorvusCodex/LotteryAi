@@ -106,7 +106,6 @@ def print_predicted_numbers(predicted_numbers):
         print("Training finished.")
         print("-" * 60)
         print("Predicted Numbers:")
-        # Check if predictions exist before printing
         if predicted_numbers.size > 0:
             print(', '.join(map(str, predicted_numbers[0])))
         else:
