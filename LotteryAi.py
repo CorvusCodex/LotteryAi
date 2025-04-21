@@ -125,7 +125,6 @@ def main():
         # Execute program steps
         print_intro()
         
-        # Load and preprocess data
         train_data, val_data, max_value = load_data()
         
         # Validate data dimensions
