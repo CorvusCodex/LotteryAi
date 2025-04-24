@@ -122,7 +122,6 @@ def print_predicted_numbers(predicted_numbers):
 
 def main():
     try:
-        # Execute program steps
         print_intro()
         
         train_data, val_data, max_value = load_data()
