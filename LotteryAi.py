@@ -126,7 +126,6 @@ def main():
         
         train_data, val_data, max_value = load_data()
         
-        # Validate data dimensions
         if train_data.ndim < 2:
             raise ValueError("Training data has invalid dimensions")
         num_features = train_data.shape[1]
