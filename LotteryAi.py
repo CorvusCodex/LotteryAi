@@ -130,7 +130,7 @@ def main():
             raise ValueError("Training data has invalid dimensions")
         num_features = train_data.shape[1]
         
-        # Create, train, and use model for prediction
+        # Create, train, and use model for predictio
         model = create_model(num_features, max_value)
         train_model(model, train_data, val_data)
         
