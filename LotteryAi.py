@@ -5,7 +5,7 @@ import tensorflow as tf
 from tensorflow import keras
 from keras import layers
 from art import text2art
-
+#
 def guard(*args, **kwargs):
     raise Exception("Internet access is disabled")
 socket.socket = guard
