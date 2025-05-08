@@ -10,7 +10,6 @@ from art import text2art # Library to generate ASCII art text
 # --- Internet Access Guard ---
 # This function replaces the standard socket creation functionality.
 # Its purpose is to prevent the script from making any internet connections.
-# If any code attempts to create a socket, it will raise an Exception.
 def guard(*args, **kwargs):
     """Raises an exception to prevent any network connections."""
     raise Exception("Internet access is disabled for security or offline operation.")
