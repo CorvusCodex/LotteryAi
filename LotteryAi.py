@@ -14,7 +14,6 @@ def guard(*args, **kwargs):
     """Raises an exception to prevent any network connections."""
     raise Exception("Internet access is disabled for security or offline operation.")
 
-# This ensures no network activity can occur through the standard socket interface.
 socket.socket = guard
 
 # --- Introduction Display ---
