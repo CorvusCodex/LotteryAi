@@ -8,7 +8,6 @@ from keras import layers # Building blocks for neural network layers
 from art import text2art # Library to generate ASCII art text
 
 # --- Internet Access Guard ---
-# This function replaces the standard socket creation functionality.
 # Its purpose is to prevent the script from making any internet connections.
 def guard(*args, **kwargs):
     """Raises an exception to prevent any network connections."""
