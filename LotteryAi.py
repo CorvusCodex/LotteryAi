@@ -15,7 +15,6 @@ def guard(*args, **kwargs):
 
 socket.socket = guard
 
-# --- Introduction Display ---
 def print_intro():
     """Prints the introductory information, credits, and ASCII art for the program."""
     try:
