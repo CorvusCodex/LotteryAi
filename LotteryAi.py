@@ -1,4 +1,3 @@
-# Import necessary libraries
 import socket  # Used initially for the internet access guard, though its main functionality is disabled
 import sys     # Used for system-specific parameters and functions, like exiting the script
 import numpy as np # Fundamental package for numerical computation in Python
