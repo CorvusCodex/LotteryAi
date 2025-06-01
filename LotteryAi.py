@@ -17,7 +17,6 @@ socket.socket = guard
 def print_intro():
     """Prints the introductory information, credits, and ASCII art for the program."""
     try:
-        # Generate ASCII art title using the 'art' library
         ascii_art = text2art("LotteryAi")
         # Print a separator line
         print("=" * 60)
