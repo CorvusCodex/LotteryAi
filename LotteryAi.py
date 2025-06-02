@@ -52,7 +52,6 @@ def print_intro():
         print("=" * 60)
         # Print a startup message
         print("Starting...")
-        # Print a final separator line for this section
         print("=" * 60)
     except Exception as e:
         # If any error occurs during the intro printing (e.g., 'art' library issue), print an error message
