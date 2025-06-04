@@ -20,7 +20,6 @@ def print_intro():
         ascii_art = text2art("LotteryAi")
         # Print a separator line
         print("=" * 60)
-        # Print the program name
         print("LotteryAi")
         # Print a brief description
         print("Lottery prediction artificial intelligence")
