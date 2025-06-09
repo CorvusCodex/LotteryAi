@@ -3,7 +3,7 @@ import sys     # Used for system-specific parameters and functions, like exiting
 import numpy as np # Fundamental package for numerical computation in Python
 import tensorflow as tf # Core library for machine learning and neural networks
 from tensorflow import keras # High-level API for building and training models in TensorFlow
-from keras import layers # Building blocks for neural network layers
+from keras import layers
 from art import text2art 
 
 # --- Internet Access Guard ---
