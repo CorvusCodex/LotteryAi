@@ -2,7 +2,7 @@ import socket  # Used initially for the internet access guard, though its main f
 import sys     # Used for system-specific parameters and functions, like exiting the script
 import numpy as np # Fundamental package for numerical computation in Python
 import tensorflow as tf # Core library for machine learning and neural networks
-from tensorflow import keras # High-level API for building and training models in TensorFlow
+from tensorflow import keras 
 from keras import layers
 from art import text2art 
 
