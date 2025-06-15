@@ -1,5 +1,5 @@
 import socket  # Used initially for the internet access guard, though its main functionality is disabled
-import sys     # Used for system-specific parameters and functions, like exiting the script
+import sys  
 import numpy as np
 import tensorflow as tf
 from tensorflow import keras 
