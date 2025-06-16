@@ -18,7 +18,6 @@ def print_intro():
     """Prints the introductory information, credits, and ASCII art for the program."""
     try:
         ascii_art = text2art("LotteryAi")
-        # Print a separator line
         print("=" * 60)
         print("LotteryAi")
         # Print a brief description
