@@ -1,5 +1,4 @@
-import socket  # Used initially for the internet access guard, though its main functionality is disabled
-import sys  
+import socket 
 import numpy as np
 import tensorflow as tf
 from tensorflow import keras 
