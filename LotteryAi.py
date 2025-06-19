@@ -41,7 +41,6 @@ def print_intro():
         print("Buy me a coffee: https://www.buymeacoffee.com/CorvusCodex")
         # Print a separator line
         print("=" * 60)
-        # Print the generated ASCII art
         print(ascii_art)
         # Print the description again below the art
         print("Lottery prediction artificial intelligence")
