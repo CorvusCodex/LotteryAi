@@ -19,7 +19,6 @@ def print_intro():
         ascii_art = text2art("LotteryAi")
         print("=" * 60)
         print("LotteryAi")
-        # Print a brief description
         print("Lottery prediction artificial intelligence")
         print("Created by: CorvusCodex")
         # Print GitHub link
