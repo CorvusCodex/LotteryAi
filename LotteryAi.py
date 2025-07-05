@@ -22,7 +22,6 @@ def print_intro():
         print("Lottery prediction artificial intelligence")
         print("Created by: CorvusCodex")
         print("Github: https://github.com/CorvusCodex/")
-        # Print license information
         print("Licence: MIT License")
         # Print a separator line
         print("=" * 60)
