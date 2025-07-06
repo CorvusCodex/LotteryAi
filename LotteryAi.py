@@ -14,7 +14,6 @@ def guard(*args, **kwargs):
 socket.socket = guard
 
 def print_intro():
-    """Prints the introductory information, credits, and ASCII art for the program."""
     try:
         ascii_art = text2art("LotteryAi")
         print("=" * 60)
