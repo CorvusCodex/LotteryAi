@@ -22,7 +22,6 @@ def print_intro():
         print("Created by: CorvusCodex")
         print("Github: https://github.com/CorvusCodex/")
         print("Licence: MIT License")
-        # Print a separator line
         print("=" * 60)
         # Print donation/support information header
         print("Support my work:")
