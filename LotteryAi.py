@@ -23,7 +23,6 @@ def print_intro():
         print("Github: https://github.com/CorvusCodex/")
         print("Licence: MIT License")
         print("=" * 60)
-        # Print donation/support information header
         print("Support my work:")
         # Print Bitcoin address
         print("BTC: bc1q7wth254atug2p4v9j3krk9kauc0ehys2u8tgg3")
