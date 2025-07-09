@@ -24,7 +24,6 @@ def print_intro():
         print("Licence: MIT License")
         print("=" * 60)
         print("Support my work:")
-        # Print Bitcoin address
         print("BTC: bc1q7wth254atug2p4v9j3krk9kauc0ehys2u8tgg3")
         # Print Ethereum/BNB/Polygon address
         print("ETH/BNB/POL: 0x68B6D33Ad1A3e0aFaDA60d6ADf8594601BE492F0")
