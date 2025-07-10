@@ -25,7 +25,6 @@ def print_intro():
         print("=" * 60)
         print("Support my work:")
         print("BTC: bc1q7wth254atug2p4v9j3krk9kauc0ehys2u8tgg3")
-        # Print Ethereum/BNB/Polygon address
         print("ETH/BNB/POL: 0x68B6D33Ad1A3e0aFaDA60d6ADf8594601BE492F0")
         # Print Solana address
         print("SOL: FsX3CsTFkRjzne2KiD8gjw3PEW2bYqezKfydAP55BVj7")
