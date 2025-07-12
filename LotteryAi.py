@@ -29,7 +29,6 @@ def print_intro():
         print("SOL: FsX3CsTFkRjzne2KiD8gjw3PEW2bYqezKfydAP55BVj7")
         # Print Buy Me a Coffee link
         print("Buy me a coffee: https://www.buymeacoffee.com/CorvusCodex")
-        # Print a separator line
         print("=" * 60)
         print(ascii_art)
         # Print the description again below the art
