@@ -31,7 +31,6 @@ def print_intro():
         print("=" * 60)
         print(ascii_art)
         print("Lottery prediction artificial intelligence")
-        # Print a separator line
         print("=" * 60)
         # Print a startup message
         print("Starting...")
