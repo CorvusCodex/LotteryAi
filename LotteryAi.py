@@ -32,7 +32,6 @@ def print_intro():
         print(ascii_art)
         print("Lottery prediction artificial intelligence")
         print("=" * 60)
-        # Print a startup message
         print("Starting...")
         print("=" * 60)
     except Exception as e:
