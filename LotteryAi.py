@@ -35,7 +35,6 @@ def print_intro():
         print("Starting...")
         print("=" * 60)
     except Exception as e:
-        # If any error occurs during the intro printing (e.g., 'art' library issue), print an error message
         print(f"Error displaying introduction: {str(e)}")
         # Exit the script with an error code
         sys.exit(1)
