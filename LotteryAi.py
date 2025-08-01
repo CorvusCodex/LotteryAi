@@ -5,8 +5,6 @@ from tensorflow import keras
 from keras import layers
 from art import text2art 
 
-# --- Internet Access Guard ---
-# Its purpose is to prevent the script from making any internet connections.
 def guard(*args, **kwargs):
     """Raises an exception to prevent any network connections."""
     raise Exception("Internet access is disabled for security or offline operation.")
