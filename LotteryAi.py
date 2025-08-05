@@ -10,7 +10,6 @@ def guard(*args, **kwargs):
     raise Exception("Internet access is disabled for security or offline operation.")
 
 socket.socket = guard
-
 def print_intro():
     try:
         ascii_art = text2art("LotteryAi")
