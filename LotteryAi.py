@@ -8,7 +8,6 @@ from art import text2art
 def guard(*args, **kwargs):
     """Raises an exception to prevent any network connections."""
     raise Exception("Internet access is disabled for security or offline operation.")
-
 socket.socket = guard
 def print_intro():
     try:
