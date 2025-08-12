@@ -58,7 +58,6 @@ def load_data():
 
         # Determine the size of the training set (80% of the total data)
         train_size = int(0.8 * len(data))
-
         # Check if the dataset is large enough to be split
         if train_size == 0:
             # If the dataset is too small (less than 5 rows for an 80/20 split), raise an error
