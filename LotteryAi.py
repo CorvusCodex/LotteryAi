@@ -40,7 +40,6 @@ def load_data():
     """Loads lottery data from 'data.txt', preprocesses it, and splits it into training and validation sets."""
     try:
         if not tf.io.gfile.exists('data.txt'):
-            # If the file is not found, raise a specific error
             raise FileNotFoundError("Error: 'data.txt' not found in the current directory.")
 
         # Load data from 'data.txt' using numpy's genfromtxt.
