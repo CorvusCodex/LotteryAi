@@ -67,7 +67,6 @@ def load_data():
         val_data = data[train_size:]   # Remaining 20% for validation
 
         # Find the maximum lottery number value in the entire dataset.
-        # This is crucial for setting the input dimension of the Embedding layer.
         max_value = np.max(data)
 
         # Return the prepared data splits and the maximum value
@@ -109,7 +108,6 @@ def create_model(num_features, max_value):
             # activation='softmax': Converts the output logits into probabilities, ensuring they sum to 1.
             # This is suitable if interpreting the output as the probability of each number being drawn *independently*,
             # but might not be the best choice for predicting a *set* of numbers.
-            # A different activation or loss might be considered depending on the exact prediction goal.
             layers.Dense(num_features, activation='softmax')
         ])
 
@@ -118,8 +116,6 @@ def create_model(num_features, max_value):
             # loss='categorical_crossentropy': Suitable for multi-class classification when labels are one-hot encoded.
             # However, lottery prediction isn't strictly classification in the same way.
             # Using the input sequence as both input and target (as done in train_model) suggests an autoencoder or sequence prediction setup.
-            # The effectiveness of 'categorical_crossentropy' here depends heavily on the interpretation.
-            # 'mean_squared_error' or custom losses might be alternatives.
             loss='categorical_crossentropy',
             # optimizer='adam': An efficient gradient descent optimization algorithm.
             optimizer='adam',
