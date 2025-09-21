@@ -12,7 +12,7 @@ LotteryAi is a advanced lottery prediction artificial intelligence that uses sta
 
 https://www.buymeacoffee.com/CorvusCodex/e/155047?from_page=extras
 
-### LotteryAI+ Hyperion for Windows 10, 11 OS from here:
+### (Business users) LotteryAI+ Hyperion for Windows 10, 11 OS from here:
 
 https://www.buymeacoffee.com/CorvusCodex/e/155047?from_page=extras
 
