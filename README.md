@@ -3,6 +3,7 @@
 </p>
 
 ## LotteryAi
+ <img src="https://img.shields.io/badge/AI-Powered-orange.svg" alt="AI Powered">
 
 LotteryAi is a advanced lottery prediction artificial intelligence that uses state-of-the-art machine learning to predict the winning numbers of ANY lottery game.
 
