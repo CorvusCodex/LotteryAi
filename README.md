@@ -3,7 +3,6 @@
 </p>
 <p align="center">
     <img src="https://img.shields.io/badge/AI-Powered-orange.svg" alt="AI Powered">
-  <img src="https://img.shields.io/badge/AI-Offline-orange.svg" alt="AI Offline">
   <img src="https://img.shields.io/badge/Status-Production-brightgreen.svg" alt="Status">
 </p>
 
