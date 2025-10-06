@@ -19,6 +19,7 @@ https://www.buymeacoffee.com/CorvusCodex/e/155047?from_page=extras
 ### (Business users) Advanced LotteryAI+ Hyperion for Windows 10, 11 OS from here:
 
 https://buymeacoffee.com/corvuscodex/e/426958
+
 This AI is optimised for CUDA and Threadripper.
 
 -----
