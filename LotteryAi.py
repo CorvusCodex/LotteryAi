@@ -298,8 +298,5 @@ def main():
         # Exit the script with an error code
         sys.exit(1)
 
-# --- Script Entry Point ---
-# This ensures that the main() function is called only when the script is executed directly
-# (not when imported as a module).
 if __name__ == "__main__":
     main()
