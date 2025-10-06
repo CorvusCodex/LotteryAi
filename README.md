@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/CorvusCodex/LotteryAi/blob/main/LotteryAi.png?raw=true">
+  <img src="https://github.com/CorvusCodex/LotteryAi/blob/main/LotteryAI.png?raw=true">
 </p>
 <p align="center">
     <img src="https://img.shields.io/badge/AI-Powered-orange.svg" alt="AI Powered">
