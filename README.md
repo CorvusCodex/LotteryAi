@@ -10,9 +10,13 @@
 
 LotteryAi is a advanced lottery prediction artificial intelligence that uses state-of-the-art machine learning to predict the winning numbers of ANY lottery game.
 
+
 ## If you need powerfull and advanced AI's with GUI, you can get the compiled standalone applications from here:
 
 ### LotteryAI+ for Windows 11 OS from here:
+
+## Basic lightweight Lottery AI:
+https://buymeacoffee.com/corvuscodex/e/467187
 
 https://www.buymeacoffee.com/CorvusCodex/e/155047?from_page=extras
 
