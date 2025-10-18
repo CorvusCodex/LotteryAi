@@ -46,27 +46,16 @@ def load_data():
         # Assumes data is comma-separated (delimiter=',') and consists of integers (dtype=int).
         data = np.genfromtxt('data.txt', delimiter=',', dtype=int)
 
-        # Check if the loaded data array is empty
         if data.size == 0:
-            # If the file was empty or couldn't be parsed correctly, raise an error
             raise ValueError("Error: 'data.txt' is empty or contains improperly formatted data.")
-
-        # Optional: Replace any placeholder values (like -1) with 0.
-        # This step might be specific to how missing/invalid data is represented.
         data[data == -1] = 0
 
-        # Determine the size of the training set (80% of the total data)
         train_size = int(0.8 * len(data))
-        # Check if the dataset is large enough to be split
         if train_size == 0:
-            # If the dataset is too small (less than 5 rows for an 80/20 split), raise an error
              raise ValueError("Error: Dataset is too small to split into training and validation sets (needs at least 5 rows).")
-
-        # Split the data into training and validation sets
-        train_data = data[:train_size] # First 80% for training
-        val_data = data[train_size:]   # Remaining 20% for validation
-
-        # Find the maximum lottery number value in the entire dataset.
+        train_data = data[:train_size] 
+        val_data = data[train_size:]
+        
         max_value = np.max(data)
 
         # Return the prepared data splits and the maximum value
@@ -93,29 +82,16 @@ def create_model(num_features, max_value):
     try:
         # Define the model as a sequential stack of layers
         model = keras.Sequential([
-            # Embedding layer: Turns positive integers (lottery numbers) into dense vectors of fixed size.
-            # input_dim: Size of the vocabulary (max lottery number + 1, because inputs are 0-indexed).
-            # output_dim: Dimension of the dense embedding. Larger values can capture more complex relationships but increase model size.
-            layers.Embedding(input_dim=max_value + 1, output_dim=51200), # NOTE: 51200 is a very large embedding dim, might lead to overfitting or memory issues.
+            layers.Embedding(input_dim=max_value + 1, output_dim=51200),
 
-            # LSTM layer: A type of recurrent neural network (RNN) good at learning from sequences.
-            # units: Dimensionality of the output space (and internal hidden state). 409800 is extremely large.
-            # Consider reducing this significantly based on dataset size and complexity.
-            layers.LSTM(409800), # NOTE: 409800 units is likely excessive and computationally expensive.
+            layers.LSTM(409800),
 
-            # Dense layer: A fully connected layer.
-            # units: Number of output units, should match the number of features (numbers drawn per lottery).
-            # activation='softmax': Converts the output logits into probabilities, ensuring they sum to 1.
-            # This is suitable if interpreting the output as the probability of each number being drawn *independently*,
-            # but might not be the best choice for predicting a *set* of numbers.
+    
             layers.Dense(num_features, activation='softmax')
         ])
 
         # Compile the model: Configures the model for training.
         model.compile(
-            # loss='categorical_crossentropy': Suitable for multi-class classification when labels are one-hot encoded.
-            # However, lottery prediction isn't strictly classification in the same way.
-            # Using the input sequence as both input and target (as done in train_model) suggests an autoencoder or sequence prediction setup.
             loss='categorical_crossentropy',
             # optimizer='adam': An efficient gradient descent optimization algorithm.
             optimizer='adam',
