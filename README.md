@@ -25,7 +25,7 @@ https://buymeacoffee.com/corvuscodex/e/467187
 
 https://buymeacoffee.com/corvuscodex/e/426958
 
-This AI is optimised for CUDA and Threadripper.
+This AI is optimised for CUDA and Threadripper and multiple GPUs.
 
 -----
 Other lottery versions (Windows 11):
