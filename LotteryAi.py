@@ -1,4 +1,5 @@
-import socket 
+import sys
+import socket
 import numpy as np
 import tensorflow as tf
 from tensorflow import keras 
