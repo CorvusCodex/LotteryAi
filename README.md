@@ -6,7 +6,7 @@
   <img src="https://img.shields.io/badge/Status-Production-brightgreen.svg" alt="Status">
 </p>
 
-## LotteryAi + 
+## LotteryAi
 
 LotteryAi is a advanced lottery prediction artificial intelligence that uses state-of-the-art machine learning to predict the winning numbers of ANY lottery game.
 
@@ -14,9 +14,9 @@ LotteryAi is a advanced lottery prediction artificial intelligence that uses sta
 ## If you need powerfull and advanced AI's with GUI, you can get the compiled standalone applications from here:
 
 
-### (Business users) Advanced LotteryAI for Windows 11 PRO from here:
+### Advanced LotteryAI for Windows 11 PRO from here:
 
-https://buymeacoffee.com/imogene/e/426958
+https://buymeacoffee.com/imogene/e/155047
 
 This AI is optimised for CUDA and Threadripper and multiple GPUs.
 
