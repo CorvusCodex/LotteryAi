@@ -16,7 +16,7 @@ LotteryAi is a advanced lottery prediction artificial intelligence that uses sta
 
 ### Advanced LotteryAI for Windows 11 PRO from here:
 
-https://buymeacoffee.com/imogene/e/155047
+https://buymeacoffee.com/imogene/extras
 
 This AI is optimised for CUDA and Threadripper and multiple GPUs.
 
