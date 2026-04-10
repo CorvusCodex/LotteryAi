@@ -13,28 +13,12 @@ LotteryAi is a advanced lottery prediction artificial intelligence that uses sta
 
 ## If you need powerfull and advanced AI's with GUI, you can get the compiled standalone applications from here:
 
-### LotteryAI+  for Windows 11 OS from here:
 
-https://www.buymeacoffee.com/CorvusCodex/e/155047?from_page=extras
+### (Business users) Advanced LotteryAI for Windows 11 PRO from here:
 
-## LotteryAI Basic lightweight Lottery AI:
-
-https://buymeacoffee.com/corvuscodex/e/467187
-
-### (Business users) Advanced LotteryAI+ Hyperion for Windows 11 PRO from here:
-
-https://buymeacoffee.com/corvuscodex/e/426958
+https://buymeacoffee.com/imogene/e/426958
 
 This AI is optimised for CUDA and Threadripper and multiple GPUs.
-
------
-Other lottery versions (Windows 11):
-
-PowerBall AI with GUI
-https://buymeacoffee.com/corvuscodex/e/320434
-
-MegaMillions AI with GUI
-https://buymeacoffee.com/corvuscodex/e/325420
 
 -----
 ## Installation
