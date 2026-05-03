@@ -19,8 +19,11 @@ LotteryAi is a advanced lottery prediction artificial intelligence that uses sta
 https://buymeacoffee.com/imogene/extras
 
 This AI is optimised for CUDA and Threadripper and multiple GPUs.
+------------------------------------------------------------------
 
-Order a complete AI-generated analysis report from Oracle — our autonomous lottery prediction system — no hardware or setup required.
+# Don't you have a high-performance workstation?
+
+## Order a complete AI-generated analysis report from Oracle — our autonomous lottery prediction system — no hardware or setup required.
 
 Each report includes 10 ranked number combinations, 20+ statistical analysis modules, risk assessment, and a signed PDF certificate.
 
