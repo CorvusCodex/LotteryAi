@@ -20,6 +20,15 @@ https://buymeacoffee.com/imogene/extras
 
 This AI is optimised for CUDA and Threadripper and multiple GPUs.
 
+Order a complete AI-generated analysis report from Oracle — our autonomous lottery prediction system — no hardware or setup required.
+
+Each report includes 10 ranked number combinations, 20+ statistical analysis modules, risk assessment, and a signed PDF certificate.
+
+🛒 Order here: https://buymeacoffee.com/imogene/commissions
+
+📄 Sample report: https://github.com/CorvusCodex/LotteryAi/blob/main/demo.pdf
+
+
 -----
 ## Installation
 
