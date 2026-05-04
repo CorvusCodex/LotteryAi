@@ -10,6 +10,22 @@
 
 LotteryAi is a advanced lottery prediction artificial intelligence that uses state-of-the-art machine learning to predict the winning numbers of ANY lottery game.
 
+------------------------------------------------------------------
+
+## 🤖 Get AI Predictions Instantly on Telegram
+
+Join **@lotteryaioracle** — Oracle's Telegram bot delivers AI-powered lottery predictions directly to your DM. No setup, no hardware required.
+
+- 🔢 **Quick Predictions** — 5 AI-ranked number combinations — $5
+- 📄 **Full Lab Certificate PDF** — 10 predictions, risk analysis, 20+ statistical modules, signed PDF — $15
+
+💳 Pay with **BTC · ETH · BNB** — results delivered automatically on payment confirmation.
+
+👉 **Join now:** https://t.me/lotteryaioracle
+
+
+------------------
+
 
 ### If you need powerfull and advanced AI's with GUI, you can get the compiled standalone applications from here:
 
@@ -30,21 +46,7 @@ Each report includes 10 ranked number combinations, 20+ statistical analysis mod
 
 📄 Sample report: https://github.com/CorvusCodex/LotteryAi/blob/main/demo.pdf
 
-------------------------------------------------------------------
 
-## 🤖 Get AI Predictions Instantly on Telegram
-
-Join **@lotteryaioracle** — Oracle's Telegram bot delivers AI-powered lottery predictions directly to your DM. No setup, no hardware required.
-
-- 🔢 **Quick Predictions** — 5 AI-ranked number combinations — $5
-- 📄 **Full Lab Certificate PDF** — 10 predictions, risk analysis, 20+ statistical modules, signed PDF — $15
-
-💳 Pay with **BTC · ETH · BNB** — results delivered automatically on payment confirmation.
-
-👉 **Join now:** https://t.me/lotteryaioracle
-
-
------
 ## Installation
 
 To install LotteryAi, you will need to have or download Python 3.x and the following libraries installed:
